@@ -1,0 +1,14 @@
+// write 'c' progarming using constants,variables and arthmetic op
+// auther mohd zaid khan 
+//date 06/09/2022
+int main(){
+#include <stdio.h>
+float a;
+int r;
+const float pi=3.14;
+  printf ("enter radius of the  circle \n");
+  scanf("%d",&r);
+a=pi*r*r;
+printf ("area is %f",a);
+    return 0;
+}
