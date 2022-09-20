@@ -1,0 +1,16 @@
+//pracrtical no 3 conversion form f to c
+// mohd zaid khan
+//date 20/09/2022
+#include <stdio.h>
+
+int main() {
+
+float fehrenheit;
+float celsius;
+printf("enter temperature in fehrenheit:");
+scanf("%f",&fehrenheit);
+celsius=(fehrenheit-32)*5/9;
+printf("temperature is celcius=%f",celsius);
+
+
+return 0;
