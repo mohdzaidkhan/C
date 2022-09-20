@@ -1,0 +1,20 @@
+//to find area of recrtangle
+// mohd zaid khan
+#include <stdio.h>
+
+int main() {
+int l,b,area,para;
+printf("enter lenght of rectangle: ");
+scanf("%d",&l);
+printf("enter breadth of rectangle: ");
+scanf("%d",&b);
+// calculate area
+area=l*b;
+printf("area of rectangle: %d\n",area);
+// calculate perameter
+para=2*l+2*b;
+printf("perameter of rectangle: %d\n",para);
+
+
+return 0;
+}
