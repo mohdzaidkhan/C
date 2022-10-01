@@ -1,0 +1,45 @@
+// program to print a student's grade by accepting marks by using SWITH case 
+// mohd zaid khan
+//1/10/2022
+#include <stdio.h>
+
+int main() {
+    
+int marks;
+printf("enter your marks(0-100):");
+scanf("%d",&marks);
+
+switch(marks/10){
+case 10:
+    //marks 100
+    printf("your grade:A\n");
+    break;
+case 9:
+    // marks between 90-100
+    printf("your grade:A\n");
+break;
+case 8:
+    // marks 80
+    printf("your grade:B\n");
+break;
+case 7 :
+    //marks between 70-89
+    printf("your grade:B\n");
+break;
+case 5:
+    //marks 50
+    printf("your grade:D\n");
+break;
+case 4:
+    //marks between 40-59
+    printf("your grade:D\n");
+break;
+default:
+    //marks less than 40
+    printf("you failed\n");
+
+
+
+}
+
+}
