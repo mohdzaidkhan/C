@@ -1,0 +1,23 @@
+/*  
+  P9 A:generate multiplication table upto 10
+  Author:mohd zaid khan
+  Date:10/10/2022
+*/
+#include <stdio.h>
+
+int main() {
+  int i,n;
+  printf("enter number:");
+  scanf("%d",&n);
+  printf("multiplication of %d\n",n);
+   
+   for (i=1;i<=10;i++)
+ {
+     printf("%dx%d=%d\n",n,i,n*i);
+     
+    
+ }
+    
+    
+}
+ 
