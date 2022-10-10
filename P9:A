@@ -1,0 +1,28 @@
+/*  
+  P9 A:find sum of digits of givin number
+  Author:mohd zaid khan
+  Date:10/10/2022
+*/
+#include <stdio.h>
+
+int main() {
+  int i,m,n;
+  int sum=0;
+  printf("enter number:");
+  scanf("%d",&n);
+   
+   for (i=1;n!=0;i++)
+ {
+     m=n%10;
+     sum=sum+m;
+     n=n/10;
+    
+ }
+    printf("sum=%d",sum);
+    
+}
+ 
+ 
+ 
+ 
+ 
