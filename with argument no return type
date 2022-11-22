@@ -1,0 +1,19 @@
+// function with argument no return type
+#include <stdio.h>
+
+void add(int x,int y){
+    int sum;
+ 
+ sum=x+y;
+ printf("%d",sum);
+}
+
+void main() {
+    int a,b;
+printf("enter value a\n");
+scanf("%d",&a);
+printf("enter value b\n");
+scanf("%d",&b);
+    add(a,b);
+
+}
