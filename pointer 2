@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void main() {
+
+   int a,b;
+   int*pa,*pb;
+   
+   printf("enter value of a\n");
+   scanf("%d",&a);
+   printf(" enter value of b\n");
+   scanf("%d",&b);
+   
+   pa=&a;
+   pb=&b;
+
+   printf("\n addition=%d",*pa+*pb);
+   printf("\n substraction=%d",*pa-*pb);
+   printf("\n multiplication=%d",*pa**pb);
+   printf("\n division=%d",*pa/(*pb));
+
+
+}
